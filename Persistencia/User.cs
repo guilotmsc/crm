@@ -28,12 +28,12 @@ namespace Persistencia
             }
         }
 
-        public Object login(User user)
+        public DataTable login(User user)
         {
-            String sql = "SELECT COUNT(ID) FROM USUARIOS WHERE USUARIO = '{0}' AND SENHA = '{1}')";
+            String sql = "SELECT COUNT(ID) FROM USUARIOS WHERE USUARIO = '{0}' AND SENHA = '{1}'";
 
             sql = String.Format(sql, user.usuario, user.senha);
-            return queryExecute(sql);
+            return queryToDataTable(sql);
         }
     }
 }

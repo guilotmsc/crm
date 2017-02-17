@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Persistencia;
+using System.Data;
+using Newtonsoft;
 
 namespace crm.proxy
 {
@@ -27,9 +29,8 @@ namespace crm.proxy
 
         public void login(HttpContext context)
         {
-            User user = new User();
-            
-            Object response;
+            User user = new User(); 
+            DataTable response;
             user.usuario = context.Request.Form["usuario"];
             user.senha = context.Request.Form["senha"];
 
@@ -37,7 +38,16 @@ namespace crm.proxy
             {
                 response = user.login(user);
 
-                context.Response.Write(response);
+                if (Convert.ToInt32(response.Rows[0]["count"]) < 1)
+                {
+                    user.usuario = null;
+                    user.senha = null;
+                    
+                    context.Response.Write("{ \"data\" : \"error\" }");
+                } else
+                {
+                } 
+                 
             }
             catch (Exception)
             {

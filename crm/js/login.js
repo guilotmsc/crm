@@ -8,6 +8,7 @@ function inicializaBotoes() {
         $.ajax({
             url: "proxy/Login.ashx?metodo=logar",
             type: "POST",
+            dataType: "application/json",
             data: {
                 "usuario": $("#usuario").val(),
                 "senha": $("#senha").val()
@@ -15,8 +16,8 @@ function inicializaBotoes() {
             success: function (data) {
                 window.location = "dashboard.aspx";
             },
-            error: function (err) {
-
+            error: function (error) {
+                console.log(error);
             }
         });
     });
