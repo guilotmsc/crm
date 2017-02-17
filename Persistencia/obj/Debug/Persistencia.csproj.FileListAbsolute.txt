@@ -1,0 +1,7 @@
+c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\Persistencia\bin\Debug\Persistencia.dll
+c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\Persistencia\bin\Debug\Persistencia.pdb
+c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\Persistencia\bin\Debug\mono.security.dll
+c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\Persistencia\bin\Debug\npgsql.dll
+c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\Persistencia\obj\Debug\Persistencia.dll
+c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\Persistencia\obj\Debug\Persistencia.pdb
