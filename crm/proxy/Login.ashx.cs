@@ -5,6 +5,7 @@ using System.Web;
 using Persistencia;
 using System.Data;
 using Newtonsoft;
+using Newtonsoft.Json;
 
 namespace crm.proxy
 {
@@ -46,8 +47,10 @@ namespace crm.proxy
                     context.Response.Write("{ \"data\" : \"error\" }");
                 } else
                 {
-                } 
-                 
+
+
+                }
+
             }
             catch (Exception)
             {

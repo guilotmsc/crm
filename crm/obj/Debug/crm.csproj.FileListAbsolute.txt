@@ -35,3 +35,41 @@ c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\crm\bin\Persis
 c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\crm\bin\Npgsql.dll
 c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\crm\bin\Mono.Security.dll
 c:\Users\master-saraiva\Documents\Visual Studio 2015\Projects\crm\crm\bin\Persistencia.pdb
+C:\crm\crm\crm\bin\ApplicationInsights.config
+C:\crm\crm\crm\bin\roslyn\csc.exe
+C:\crm\crm\crm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\crm\crm\crm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\crm\crm\crm\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\crm\crm\crm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\crm\crm\crm\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\crm\crm\crm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\crm\crm\crm\bin\roslyn\System.Collections.Immutable.dll
+C:\crm\crm\crm\bin\roslyn\System.Reflection.Metadata.dll
+C:\crm\crm\crm\bin\roslyn\vbc.exe
+C:\crm\crm\crm\bin\roslyn\VBCSCompiler.exe
+C:\crm\crm\crm\bin\roslyn\VBCSCompiler.exe.config
+C:\crm\crm\crm\bin\crm.dll.config
+C:\crm\crm\crm\bin\crm.dll
+C:\crm\crm\crm\bin\crm.pdb
+C:\crm\crm\crm\bin\Microsoft.AI.Agent.Intercept.dll
+C:\crm\crm\crm\bin\Microsoft.AI.DependencyCollector.dll
+C:\crm\crm\crm\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\crm\crm\crm\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\crm\crm\crm\bin\Microsoft.AI.Web.dll
+C:\crm\crm\crm\bin\Microsoft.AI.WindowsServer.dll
+C:\crm\crm\crm\bin\Microsoft.ApplicationInsights.dll
+C:\crm\crm\crm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\crm\crm\crm\bin\Newtonsoft.Json.dll
+C:\crm\crm\crm\bin\Persistencia.dll
+C:\crm\crm\crm\bin\Npgsql.dll
+C:\crm\crm\crm\bin\Mono.Security.dll
+C:\crm\crm\crm\bin\Persistencia.pdb
+C:\crm\crm\crm\bin\Microsoft.AI.DependencyCollector.xml
+C:\crm\crm\crm\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\crm\crm\crm\bin\Microsoft.AI.Web.xml
+C:\crm\crm\crm\bin\Microsoft.AI.WindowsServer.xml
+C:\crm\crm\crm\bin\Microsoft.ApplicationInsights.xml
+C:\crm\crm\crm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\crm\crm\crm\obj\Debug\crm.csprojResolveAssemblyReference.cache
+C:\crm\crm\crm\obj\Debug\crm.dll
+C:\crm\crm\crm\obj\Debug\crm.pdb

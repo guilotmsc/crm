@@ -17,6 +17,7 @@ function inicializaBotoes() {
                 window.location = "dashboard.aspx";
             },
             error: function (error) {
+                console.log("test");
                 console.log(error);
             }
         });
