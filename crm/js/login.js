@@ -4,17 +4,16 @@ $(function () {
 });
 
 function inicializaBotoes() {
-    $("#btn_logar").click(function(){
+    $("#btn_logar").click(function () { 
         $.ajax({
             url: "proxy/Login.ashx?metodo=logar",
-            type: "POST",
-            dataType: "application/json",
+            type: "POST", 
             data: {
                 "usuario": $("#usuario").val(),
                 "senha": $("#senha").val()
             },
-            success: function (data) {
-                window.location = "dashboard.aspx";
+            success: function (data) { 
+                window.location = "dashboard.aspx"; 
             },
             error: function (error) {
                 console.log("test");

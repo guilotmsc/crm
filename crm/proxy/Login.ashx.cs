@@ -4,8 +4,9 @@ using System.Linq;
 using System.Web;
 using Persistencia;
 using System.Data;
-using Newtonsoft;
 using Newtonsoft.Json;
+using System.Net;
+using System.Web.Helpers;
 
 namespace crm.proxy
 {
@@ -26,15 +27,14 @@ namespace crm.proxy
                     break;
             }
         }
-
-
+         
         public void login(HttpContext context)
         {
             User user = new User(); 
             DataTable response;
             user.usuario = context.Request.Form["usuario"];
             user.senha = context.Request.Form["senha"];
-
+            String teste = String.Empty;
             try
             {
                 response = user.login(user);
@@ -43,14 +43,13 @@ namespace crm.proxy
                 {
                     user.usuario = null;
                     user.senha = null;
-                    
-                    context.Response.Write("{ \"data\" : \"error\" }");
+
+                    throw new Exception();
                 } else
                 {
-
-
+                    context.Response.Write("{{\"message\": \"action was successful!\"}}");
                 }
-
+                 
             }
             catch (Exception)
             {
