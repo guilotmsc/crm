@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 
@@ -14,7 +15,19 @@ namespace crm.proxy
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/plain";
-            context.Response.Write("Hello World");
+
+            switch (context.Request.QueryString["metodo"])
+            {
+                case "getEtapas":
+                    this.getEtapas(context);
+                    break;
+            }
+        }
+
+        public void getEtapas(HttpContext context)
+        {
+            DataTable response = new DataTable();
+
         }
 
         public bool IsReusable

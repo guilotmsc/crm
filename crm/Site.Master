@@ -403,6 +403,7 @@
 
         <div class="page-header-menu">
             <div class="container">
+                <!-- BEGIN HEADER SEARCH BOX -->
                 <form class="search-form" action="page_general_search.html" method="GET">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search" name="query">
@@ -413,10 +414,35 @@
                         </span>
                     </div>
                 </form>
-
-                <div class="hor-menu  ">
+                <!-- END HEADER SEARCH BOX -->
+                <!-- BEGIN MEGA MENU -->
+                <!-- DOC: Apply "hor-menu-light" class after the "hor-menu" class below to have a horizontal menu with white background -->
+                <!-- DOC: Remove data-hover="dropdown" and data-close-others="true" attributes below to disable the dropdown opening on mouse hover -->
+                <div class="hor-menu  hor-menu-light">
                     <ul class="nav navbar-nav">
-                        
+                        <li class="menu-dropdown classic-menu-dropdown ">
+                            <a href="javascript:;"> Negócios
+                                <span class="arrow"></span>
+                            </a>
+                            <%--<ul class="dropdown-menu pull-left">
+                                <li class=" ">
+                                    <a href="index.html" class="nav-link  ">
+                                        <i class="icon-bar-chart"></i> Default Dashboard
+                                        <span class="badge badge-success">1</span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="dashboard_2.html" class="nav-link  ">
+                                        <i class="icon-bulb"></i> Dashboard 2 </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="dashboard_3.html" class="nav-link  ">
+                                        <i class="icon-graph"></i> Dashboard 3
+                                        <span class="badge badge-danger">3</span>
+                                    </a>
+                                </li>
+                            </ul>--%>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -475,7 +501,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
                     <h2>Contatos</h2>
                     <address class="margin-bottom-40">
-                        Fone: 91059988
+                        Fone: (45) 9105-9988
                             <br>
                         Email:
                             <a href="mailto:guilotmsc@gmail.com">guilotmsc@gmail.com</a>
